@@ -18,7 +18,7 @@ root.render(
         <ServiceProvider>
           <ComplianceProvider>
             <NotificationProvider>
-              <BrowserRouter>
+              <BrowserRouter basename="/compliance">
                 <App />
               </BrowserRouter>
             </NotificationProvider>
